@@ -1,0 +1,11 @@
+id,name,age,department,salary,joining_date
+1,Alice Johnson,25,Sales,50000,01-01-2023
+2,Bob Smith,30,Marketing,55000,02-01-2023
+3,Charlie Davis,,HR,60000,03-01-2023
+4,David Lee,28,Finance,52000,04-01-2023
+5,Eva Brown,27,IT,NaN,05-01-2023
+6,Frank Miller,35,Sales,72000,06-01-2023
+7,Grace Kim,31,IT,65000,07-01-2023
+8,Henry Wilson,29,Finance,58000,08-01-2023
+9,Ivy Adams,33,Marketing,,09-01-2023
+10,Jack Turner,26,Sales,49000,10-01-2023
