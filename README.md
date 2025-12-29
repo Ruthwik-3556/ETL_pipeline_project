@@ -1,16 +1,16 @@
 # ETL_pipeline_project
 implemented a modular ETL pipeline where data is extracted from a CSV file, transformed to handle missing values and enforce data integrity using Pandas, and loaded into a SQLite database. The processed data was validated using SQL queries and visualized using Matplotlib
 
-# 📊 ETL Pipeline Project (CSV → SQLite Database)
+#  ETL Pipeline Project (CSV → SQLite Database)
 
-## 📌 Project Overview
+##  Project Overview
 This project demonstrates a complete **ETL (Extract, Transform, Load) pipeline** using Python.  
 Employee data is extracted from a CSV file, cleaned and transformed using Pandas, and loaded into a SQLite database.  
 The project is implemented in a **modular and scalable structure**, following real-world data engineering practices.
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 - **Python 3**
 - **Pandas** – Data extraction & transformation
 - **SQLite** – Lightweight relational database
@@ -19,7 +19,7 @@ The project is implemented in a **modular and scalable structure**, following re
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ETL_Pipeline_Project/
 │
 ├── data.csv # Source CSV file
@@ -32,12 +32,9 @@ ETL_Pipeline_Project/
 ├── ETL_Project_Report.pdf# Project report with visualizations
 └── README.md # Project documentation
 
-yaml
-Copy code
 
----
 
-## 🔁 ETL Pipeline Workflow
+##  ETL Pipeline Workflow
 
 CSV File
 ↓
@@ -49,37 +46,34 @@ Load (store into SQLite database)
 ↓
 Database Table
 
-yaml
-Copy code
 
----
 
-## 🔍 ETL Stages Explained
+##  ETL Stages Explained
 
-### 1️⃣ Extract
+### 1️ Extract
 - Reads employee data from `data.csv`
 - Loads data into a Pandas DataFrame
 
-### 2️⃣ Transform
+### 2️ Transform
 - Handles missing values in `age` and `salary`
 - Converts `joining_date` to datetime format
 - Enforces correct data types
 - Applies basic data validation
 
-### 3️⃣ Load
+### 3️ Load
 - Creates a SQLite database (`company.db`)
 - Inserts cleaned data into the `employees` table
 
 ---
 
-## 📊 Data Visualizations
+##  Data Visualizations
 The following visualizations are included in the project report:
 - **Average Salary by Department** (Bar Chart)
 - **Age Distribution of Employees** (Histogram)
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
 1. Ensure all `.ipynb` files are in the same directory
 2. Open **Jupyter Notebook**
@@ -89,20 +83,13 @@ The following visualizations are included in the project report:
 
 ---
 
-## ✅ Output
+##  Output
 - Cleaned employee data stored in SQLite database
 - Verified using SQL queries
 - Visual insights generated using Matplotlib
-- Complete documentation in PDF format
 
----
 
-## 🧠 Viva / Evaluation Summary
-> “This project implements a modular ETL pipeline that extracts data from a CSV file, transforms it using Pandas for data quality and consistency, and loads it into a SQLite database. The processed data is validated and visualized for analysis.”
-
----
-
-## 📌 Conclusion
+##  Conclusion
 This project successfully demonstrates core data engineering concepts including:
 - Data extraction
 - Data cleaning & transformation
@@ -112,10 +99,10 @@ This project successfully demonstrates core data engineering concepts including:
 
 ---
 
-## 👤 Author
+##  Author
 **Ruthwik Chetan Naik**
 
 ---
 
-## 📄 License
+##  License
 This project is created for academic and educational purposes.
